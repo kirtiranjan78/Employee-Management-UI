@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8081/department";
+const API_URL = "http://localhost:2200/department";
 // Get list of departments
 export const getDepartments = () => {
   return axios.get(`${API_URL}/get`);
